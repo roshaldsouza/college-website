@@ -5,17 +5,31 @@
 
 .main{
     width: 100%;
-    background: rgb(141, 137, 137);
+    background: linear-gradient(to top, rgba(7, 36, 5, 0.7),rgba(7, 36, 5, 0.7)), url(Pictures/acscebg.jpg);
+
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
+
+
+
 .navbar{
+
     width: 1200px;
     height: 75px;
     margin: auto;
 }
+
+
+.navbar img{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 20px;
+}
+
 
 .icon{
     width: 200px;
@@ -32,6 +46,7 @@
     padding-top: 10px;
     margin-top: 5px
 }
+
 
 .menu{
     width: 400px;
@@ -56,9 +71,10 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #111010;
-    font-family: Arial;
+    font-family: Arial black;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: 0.5s ease-in-out;
+
 }
 
 ul li a:hover{
